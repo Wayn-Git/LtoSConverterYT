@@ -59,6 +59,11 @@ for segment in data:
     current_chunk["segment"].append(segment)
 
 
+# appending the last segment
+if current_chunk["segment"]:
+    chunks.append(current_chunk)
+
+
 with open("final_transcript.json", "w") as f:
     json.dump(chunks, f, indent=2)
 

@@ -1,10 +1,16 @@
-from youtube_transcript_api import YouTubeTranscriptApi
-import json
+# Youtube Related Libraries
 
+from youtube_transcript_api import YouTubeTranscriptApi
 from pytubefix import YouTube
+
+#System realted lirbaries
+
 import sys
+import json
 from pathlib import Path
+
 import re
+
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 import config
@@ -18,7 +24,7 @@ class TranscribeVId:
         self.ytt_api = YouTubeTranscriptApi()
 
     
-    def _extractVideoCode(self) -> str:
+    def _extract_video_code(self) -> str:
         self.url_split = self.video_link.split("=")
         self.video_code = self.url_split[1]
         return self.video_code
@@ -41,7 +47,7 @@ class TranscribeVId:
         return title
 
     def transcribe(self) -> list:
-        fetched_transcript = self.ytt_api.fetch(self._extractVideoCode())
+        fetched_transcript = self.ytt_api.fetch(self._extract_video_code())
         raw_transcript = fetched_transcript.to_raw_data()
         return raw_transcript
     

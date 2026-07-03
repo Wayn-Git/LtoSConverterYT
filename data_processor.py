@@ -32,7 +32,7 @@ Data Format
 with open("output/transcript.json", "r") as f:
     data = json.load(f)
 
-CHUNK_SIZE = 300
+CHUNK_SIZE = 120
 
 chunks = []
 
@@ -64,6 +64,16 @@ if current_chunk["segment"]:
     chunks.append(current_chunk)
 
 
+# --- NEW: just add a bit of neighboring text to each chunk ---
+BUFFER_WORDS = 40
+
+def edge_text(segments, n, from_end=True):
+    words = " ".join(s['text'] for s in segments).split()
+    return " ".join(words[-n:] if from_end else words[:n])
+
+for i, chunk in enumerate(chunks):
+    chunk["previous_context"] = edge_text(chunks[i-1]["segment"], BUFFER_WORDS, from_end=True) if i > 0 else ""
+    chunk["next_context"] = edge_text(chunks[i+1]["segment"], BUFFER_WORDS, from_end=False) if i < len(chunks)-1 else ""
+
 with open("final_transcript.json", "w") as f:
     json.dump(chunks, f, indent=2)
-

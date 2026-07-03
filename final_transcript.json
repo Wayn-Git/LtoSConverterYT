@@ -1,8 +1,8 @@
 [
   {
-    "chunk_id": 0,
+    "chunk_id": 1,
     "chunk_start": 0.0,
-    "chunk_end": 300,
+    "chunk_end": 120,
     "segment": [
       {
         "text": "I built this entire app with Claude",
@@ -263,7 +263,16 @@
         "text": "go in, they could actually fill out that",
         "start": 119.44,
         "duration": 4.12
-      },
+      }
+    ],
+    "previous_context": "",
+    "next_context": "interview either through chat or they could talk to it. And then those responses get sent to me and then I just kind of went crazy. I started adding lots of features and functionality after that, but that's where it"
+  },
+  {
+    "chunk_id": 2,
+    "chunk_start": 120,
+    "chunk_end": 240,
+    "segment": [
       {
         "text": "interview either through chat or they",
         "start": 121.52,
@@ -588,7 +597,16 @@
         "text": "been following 11 Labs for a long time.",
         "start": 239.88,
         "duration": 3.96
-      },
+      }
+    ],
+    "previous_context": "ago to today is in the first 3 days I got the core functionality working. I could actually create interviews. I could copy a link, send that link to somebody. They could go in, they could actually fill out that",
+    "next_context": "And so I chose 11 Labs as the voice service. So I had to go sign up for 11 Labs, give it the API key. And then now you can turn on voice. And so if I were to refresh"
+  },
+  {
+    "chunk_id": 3,
+    "chunk_start": 240,
+    "chunk_end": 360,
+    "segment": [
       {
         "text": "And so I chose 11 Labs as the voice",
         "start": 242.08,
@@ -753,14 +771,7 @@
         "text": "interview style. And uh I I do feel like",
         "start": 298.44,
         "duration": 6.16
-      }
-    ]
-  },
-  {
-    "chunk_id": 1,
-    "chunk_start": 300,
-    "chunk_end": 600,
-    "segment": [
+      },
       {
         "text": "the semi-sycophantic nature of of these",
         "start": 301.68,
@@ -910,7 +921,16 @@
         "text": "that you can't get from just a job",
         "start": 359.2,
         "duration": 3.6
-      },
+      }
+    ],
+    "previous_context": "whatever those question sets were, but then like I said, I really wanted to have a voice conversation. So I went back to Claude and said, \"Hey, can we add voice?\" I've been following 11 Labs for a long time.",
+    "next_context": "interview, obviously. But I Well, and the feedback I have gotten is I we still need the human-to-human conversations. >> Uh-huh. And I'm I'm My suggestion, and then we can talk more about the business plan of this, my suggestion"
+  },
+  {
+    "chunk_id": 4,
+    "chunk_start": 360,
+    "chunk_end": 480,
+    "segment": [
       {
         "text": "interview, obviously. But I Well, and",
         "start": 360.92,
@@ -1205,7 +1225,16 @@
         "text": "like lanes that it matters in and I",
         "start": 479.2,
         "duration": 4.36
-      },
+      }
+    ],
+    "previous_context": "know, maybe an ethics test too because Yeah, good. I wonder if um all of this summarization it, you know, kind of dilutes the actual person behind the process. There's a lot that you can't get from just a job",
+    "next_context": "think long-term maintenance, you know, as long as you assuming you have infinite resources to and that these systems will always be around to ingest and probably get better Yep. >> as they go on to ingest all this stuff,"
+  },
+  {
+    "chunk_id": 5,
+    "chunk_start": 480,
+    "chunk_end": 600,
+    "segment": [
       {
         "text": "think long-term maintenance, you know,",
         "start": 481.32,
@@ -1501,12 +1530,14 @@
         "start": 598.8,
         "duration": 3.24
       }
-    ]
+    ],
+    "previous_context": "logical. Uh-huh. Uh because you self or someone else would need to collaborate on it. >> Yeah. But if AI is reading this it's own slop, maybe, does that matter? There are like lanes that it matters in and I",
+    "next_context": ">> speak for enterprises without a lawyer present, but uh I would Yeah, that I think that's the other side of the coin. So, like for just like high productivity and things that would work for for most cases, like"
   },
   {
-    "chunk_id": 2,
+    "chunk_id": 6,
     "chunk_start": 600,
-    "chunk_end": 900,
+    "chunk_end": 720,
     "segment": [
       {
         "text": ">> speak for enterprises without a lawyer",
@@ -1812,7 +1843,16 @@
         "text": "without the guardrails, without the the",
         "start": 718.36,
         "duration": 4.48
-      },
+      }
+    ],
+    "previous_context": "got this far in 7 days. How does that translate to how organizations that are thinking about maybe pivoting towards using AI as a tool, as a resource, as an employee, or whatever? Um, how do they think about it?",
+    "next_context": "oversight, without the directional expertise of here's what we ought to do, then you're going to get something, but maybe not something that's actually beneficial for the value of the organization or the goal that you're trying to hit with"
+  },
+  {
+    "chunk_id": 7,
+    "chunk_start": 720,
+    "chunk_end": 840,
+    "segment": [
       {
         "text": "oversight, without the directional",
         "start": 720.76,
@@ -2112,7 +2152,16 @@
         "text": "you want to be for the the return on the",
         "start": 839.52,
         "duration": 3.32
-      },
+      }
+    ],
+    "previous_context": "or maybe an enterprise that's saying I'm going to get my all my teams to just like switch over to asking AI to do everything. >> Yeah. What I'm hearing you say is that without the guardrails, without the the",
+    "next_context": "value that you want. Some things to consider are again security. Like when I was looking at the code >> were all my API keys just like completely visible? >> No, you did a good test. It's a node, it's"
+  },
+  {
+    "chunk_id": 8,
+    "chunk_start": 840,
+    "chunk_end": 960,
+    "segment": [
       {
         "text": "value that you want. Some things to",
         "start": 841.32,
@@ -2272,7 +2321,438 @@
         "text": "data data governance laws that they're",
         "start": 897.72,
         "duration": 3.76
+      },
+      {
+        "text": "like maintaining, but you know,",
+        "start": 900.04,
+        "duration": 4.0
+      },
+      {
+        "text": "otherwise it may come back to to you.",
+        "start": 901.48,
+        "duration": 5.32
+      },
+      {
+        "text": "Yes. Yes. Yep. Um and then lastly, one",
+        "start": 904.04,
+        "duration": 4.56
+      },
+      {
+        "text": "thing I was thinking about is just like",
+        "start": 906.8,
+        "duration": 3.68
+      },
+      {
+        "text": "with with the spaghetti code nature,",
+        "start": 908.6,
+        "duration": 3.76
+      },
+      {
+        "text": "like it's interesting some things that",
+        "start": 910.48,
+        "duration": 4.32
+      },
+      {
+        "text": "there's a UI library, Radix UI, that",
+        "start": 912.36,
+        "duration": 4.4
+      },
+      {
+        "text": "it's importing two components. Two",
+        "start": 914.8,
+        "duration": 3.52
+      },
+      {
+        "text": "components in the Just two components",
+        "start": 916.76,
+        "duration": 2.72
+      },
+      {
+        "text": "out of the entire library.",
+        "start": 918.32,
+        "duration": 3.56
+      },
+      {
+        "text": ">> entire library and then it's also using",
+        "start": 919.48,
+        "duration": 5.76
+      },
+      {
+        "text": "Tailwind and and Remix has some like",
+        "start": 921.88,
+        "duration": 4.92
+      },
+      {
+        "text": "notes in their documentation and it's",
+        "start": 925.24,
+        "duration": 3.36
+      },
+      {
+        "text": "like you can use this with Tailwind, but",
+        "start": 926.8,
+        "duration": 3.28
+      },
+      {
+        "text": "like you may run into things where",
+        "start": 928.6,
+        "duration": 3.68
+      },
+      {
+        "text": "you're trying to reach into like maybe",
+        "start": 930.08,
+        "duration": 4.08
+      },
+      {
+        "text": "anti-pattern things to use those two",
+        "start": 932.28,
+        "duration": 4.44
+      },
+      {
+        "text": "together in a specific way. But it's",
+        "start": 934.16,
+        "duration": 4.12
+      },
+      {
+        "text": "spread out and you're importing these",
+        "start": 936.72,
+        "duration": 3.12
+      },
+      {
+        "text": "things and then there's a lot of",
+        "start": 938.28,
+        "duration": 2.52
+      },
+      {
+        "text": "duplication.",
+        "start": 939.84,
+        "duration": 2.96
+      },
+      {
+        "text": ">> Yeah. I I thought I thought that you",
+        "start": 940.8,
+        "duration": 3.72
+      },
+      {
+        "text": "could get to a point where you're",
+        "start": 942.8,
+        "duration": 3.92
+      },
+      {
+        "text": "shipping a really big application to the",
+        "start": 944.52,
+        "duration": 4.12
+      },
+      {
+        "text": "browser that could be otherwise I mean",
+        "start": 946.72,
+        "duration": 3.16
+      },
+      {
+        "text": "it's mostly text, right?",
+        "start": 948.64,
+        "duration": 2.6
+      },
+      {
+        "text": ">> Yeah, but it could be a lot more lean.",
+        "start": 949.88,
+        "duration": 2.88
+      },
+      {
+        "text": "It could be a lot more lean and and more",
+        "start": 951.24,
+        "duration": 4.16
+      },
+      {
+        "text": "performant which uh again will affect",
+        "start": 952.76,
+        "duration": 4.84
+      },
+      {
+        "text": "your like bandwidth costs for serving",
+        "start": 955.4,
+        "duration": 4.36
+      },
+      {
+        "text": "those files when somebody lands on this.",
+        "start": 957.6,
+        "duration": 4.08
+      },
+      {
+        "text": ">> Yeah, that's really good. And honestly,",
+        "start": 959.76,
+        "duration": 2.96
       }
-    ]
+    ],
+    "previous_context": "were really cool for like PR reviews or for you know, the planning features were really nice. But without that expert in the loop, maybe you wouldn't get to where you want to be for the the return on the",
+    "next_context": "I think that those are things we could probably fix with AI if I knew or if we were focused on saying, \"Hey, we need to write a skill that references the same design library. We need to write you"
+  },
+  {
+    "chunk_id": 9,
+    "chunk_start": 960,
+    "chunk_end": 1080,
+    "segment": [
+      {
+        "text": "I think that those are things we could",
+        "start": 961.68,
+        "duration": 4.68
+      },
+      {
+        "text": "probably fix with AI if I knew or if we",
+        "start": 962.72,
+        "duration": 5.92
+      },
+      {
+        "text": "were focused on saying, \"Hey, we need to",
+        "start": 966.36,
+        "duration": 4.16
+      },
+      {
+        "text": "write a skill that references the same",
+        "start": 968.64,
+        "duration": 3.12
+      },
+      {
+        "text": "design library. We need to write you",
+        "start": 970.52,
+        "duration": 2.2
+      },
+      {
+        "text": "know, like there's ways that you could",
+        "start": 971.76,
+        "duration": 2.68
+      },
+      {
+        "text": "probably get that to build on itself.\"",
+        "start": 972.72,
+        "duration": 3.52
+      },
+      {
+        "text": "But didn't do that on in 7 days.",
+        "start": 974.44,
+        "duration": 4.28
+      },
+      {
+        "text": ">> Yes. And lastly, I would say maybe most",
+        "start": 976.24,
+        "duration": 4.12
+      },
+      {
+        "text": "importantly there are no tests in this",
+        "start": 978.72,
+        "duration": 2.76
+      },
+      {
+        "text": "code base.",
+        "start": 980.36,
+        "duration": 4.68
+      },
+      {
+        "text": "Zero tests which is I feel judged but",
+        "start": 981.48,
+        "duration": 4.56
+      },
+      {
+        "text": "appropriately so.",
+        "start": 985.04,
+        "duration": 2.76
+      },
+      {
+        "text": ">> it's but I mean if you're just making",
+        "start": 986.04,
+        "duration": 2.72
+      },
+      {
+        "text": "something to work you're not going to",
+        "start": 987.8,
+        "duration": 2.4
+      },
+      {
+        "text": "say and test it to make cuz you're the",
+        "start": 988.76,
+        "duration": 2.0
+      },
+      {
+        "text": "one testing.",
+        "start": 990.2,
+        "duration": 1.16
+      },
+      {
+        "text": ">> Yeah, right.",
+        "start": 990.76,
+        "duration": 3.88
+      },
+      {
+        "text": ">> But um because context is limited and",
+        "start": 991.36,
+        "duration": 5.32
+      },
+      {
+        "text": "because you're going to have it kind of",
+        "start": 994.64,
+        "duration": 3.8
+      },
+      {
+        "text": "worming its way through everything and",
+        "start": 996.68,
+        "duration": 4.4
+      },
+      {
+        "text": "and updating stuff across Generally it's",
+        "start": 998.44,
+        "duration": 4.12
+      },
+      {
+        "text": "you know, in my experience Claude has",
+        "start": 1001.08,
+        "duration": 3.88
+      },
+      {
+        "text": "been good at kind of respecting what's",
+        "start": 1002.56,
+        "duration": 4.04
+      },
+      {
+        "text": "there and making non-breaking API",
+        "start": 1004.96,
+        "duration": 3.24
+      },
+      {
+        "text": "changes when you're doing features, but",
+        "start": 1006.6,
+        "duration": 3.64
+      },
+      {
+        "text": "you're not going to necessarily know if",
+        "start": 1008.2,
+        "duration": 4.4
+      },
+      {
+        "text": "one of your 2,000 features that you spit",
+        "start": 1010.24,
+        "duration": 4.44
+      },
+      {
+        "text": "out over the weekend is broken when you",
+        "start": 1012.6,
+        "duration": 5.08
+      },
+      {
+        "text": "make 2,001 features. Um it's really good",
+        "start": 1014.68,
+        "duration": 5.68
+      },
+      {
+        "text": "and that sort of like deployment process",
+        "start": 1017.68,
+        "duration": 4.92
+      },
+      {
+        "text": "and checks and balances are really",
+        "start": 1020.36,
+        "duration": 4.04
+      },
+      {
+        "text": "important to have if you don't want to",
+        "start": 1022.6,
+        "duration": 3.96
+      },
+      {
+        "text": "make your paying customers upset that",
+        "start": 1024.4,
+        "duration": 4.559
+      },
+      {
+        "text": "you broke something. Right.",
+        "start": 1026.56,
+        "duration": 3.96
+      },
+      {
+        "text": "When you ship a new feature. So lots",
+        "start": 1028.959,
+        "duration": 3.961
+      },
+      {
+        "text": "more considerations to vibe coding in",
+        "start": 1030.52,
+        "duration": 4.88
+      },
+      {
+        "text": "2026. Yeah. That being said, we're",
+        "start": 1032.92,
+        "duration": 4.68
+      },
+      {
+        "text": "leaning in. We're learning, you know.",
+        "start": 1035.4,
+        "duration": 3.36
+      },
+      {
+        "text": "And we can see that we can make",
+        "start": 1037.6,
+        "duration": 3.52
+      },
+      {
+        "text": "something within 7 days, but also keep",
+        "start": 1038.76,
+        "duration": 3.92
+      },
+      {
+        "text": "the expert in the loop because there's",
+        "start": 1041.12,
+        "duration": 3.24
+      },
+      {
+        "text": "still a lot that you want to get right.",
+        "start": 1042.68,
+        "duration": 3.24
+      },
+      {
+        "text": "That sounds about right to me. Thanks",
+        "start": 1044.36,
+        "duration": 3.64
+      },
+      {
+        "text": "for watching. We're Crema, a digital",
+        "start": 1045.92,
+        "duration": 4.08
+      },
+      {
+        "text": "product agency and design and technology",
+        "start": 1048.0,
+        "duration": 4.64
+      },
+      {
+        "text": "consultancy. We help people do this. So,",
+        "start": 1050.0,
+        "duration": 4.48
+      },
+      {
+        "text": "make sure you subscribe and learn more",
+        "start": 1052.64,
+        "duration": 4.16
+      },
+      {
+        "text": "and follow along. Like and subscribe.",
+        "start": 1054.48,
+        "duration": 4.72
+      },
+      {
+        "text": "What'd your cat say about how good you",
+        "start": 1056.8,
+        "duration": 3.32
+      },
+      {
+        "text": "are as a cat parent?",
+        "start": 1059.2,
+        "duration": 3.96
+      },
+      {
+        "text": ">> Pretty good, actually.",
+        "start": 1060.12,
+        "duration": 3.04
+      }
+    ],
+    "previous_context": "a lot more lean. It could be a lot more lean and and more performant which uh again will affect your like bandwidth costs for serving those files when somebody lands on this. >> Yeah, that's really good. And honestly,",
+    "next_context": ""
   }
 ]

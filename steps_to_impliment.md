@@ -62,3 +62,9 @@ Ask it to:
 - return the best 5.
 
 Now the model has a global view, but it's looking at only 30 objects instead of a huge transcript.
+
+---
+
+# LLM Tool Call
+
+### What if I give my LLM an tool to call that returns a certain number of characters from the preivious or the next chunk for it to analyze and merge if suitable

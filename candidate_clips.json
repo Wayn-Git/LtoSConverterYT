@@ -1,128 +1,50 @@
 [
   {
-    "start": 37.2,
-    "end": 51.28,
-    "score": 8,
-    "reason": "Ross builds an app in 7 days without a developer, designer, or product manager, and with his AI assistant Claude.",
-    "chunk_id": 1
-  },
-  {
-    "start": 92.52,
-    "end": 110.4,
+    "start": 140.72,
+    "end": 183.92,
+    "duration": 43.2,
     "score": 9,
-    "reason": "Ross describes how he built the core functionality of his app in 3 days, allowing users to create interviews and send links to others.",
-    "chunk_id": 1
-  },
-  {
-    "start": 121.52,
-    "end": 156.04,
-    "score": 9,
-    "reason": "The creator shares a funny and relatable moment of interviewing their cat, showcasing the app's capabilities.",
+    "reason": "Ross is seeking validation on whether his app is ready to be shipped, making it a relatable and engaging moment.",
     "chunk_id": 2
-  },
-  {
-    "start": 188.92,
-    "end": 205.32,
-    "score": 8,
-    "reason": "The creator demonstrates the app's ability to draft questions based on the interview goal, showing its potential for use in various scenarios.",
-    "chunk_id": 2
-  },
-  {
-    "start": 242.08,
-    "end": 270.2,
-    "score": 9,
-    "reason": "The speaker describes the process of adding voice functionality to an interview platform, providing a clear and engaging explanation.",
-    "chunk_id": 3
   },
   {
     "start": 301.68,
-    "end": 323.48,
-    "score": 8,
-    "reason": "The speaker discusses the semi-sycophantic nature of the agents in the conversation, highlighting a potential limitation of the platform.",
+    "end": 343.68,
+    "duration": 42,
+    "score": 9,
+    "reason": "The semi-sycophantic nature of the agents in conversation is helpful in drawing out more conversational responses",
     "chunk_id": 3
   },
   {
-    "start": 388.28,
-    "end": 393.76,
+    "start": 761.4,
+    "end": 812.4,
+    "duration": 51,
     "score": 9,
-    "reason": "Funny moment: comparing someone's coding skills to microwaving spaghetti",
-    "chunk_id": 4
-  },
-  {
-    "start": 454.8,
-    "end": 469.8,
-    "score": 8,
-    "reason": "Interesting discussion on code structure and collaboration",
-    "chunk_id": 4
-  },
-  {
-    "start": 540.96,
-    "end": 571.2,
-    "score": 9,
-    "reason": "Surprising and humorous perspective on AI development and maintenance.",
-    "chunk_id": 5
-  },
-  {
-    "start": 584.04,
-    "end": 599.44,
-    "score": 8,
-    "reason": "Thought-provoking discussion on how AI adoption translates to enterprise environments.",
-    "chunk_id": 5
-  },
-  {
-    "start": 646.76,
-    "end": 656.64,
-    "score": 8,
-    "reason": "Surprising insight on the pivot back from SaaS-based software to expensive cloud-based software",
-    "chunk_id": 6
-  },
-  {
-    "start": 716.72,
-    "end": 718.36,
-    "score": 7,
-    "reason": "Strong opinion on the importance of guardrails and oversight for AI adoption",
-    "chunk_id": 6
-  },
-  {
-    "start": 768.64,
-    "end": 794.28,
-    "score": 9,
-    "reason": "Surprising insight on the importance of human oversight in AI development",
+    "reason": "Surprising insight on the importance of human oversight in AI development.",
     "chunk_id": 7
   },
   {
-    "start": 805.36,
-    "end": 828.92,
+    "start": 908.6,
+    "end": 959.76,
+    "duration": 51.16,
     "score": 9,
-    "reason": "Expert in the loop can say no with constraints, emphasizing the importance of human judgment in AI development",
-    "chunk_id": 7
-  },
-  {
-    "start": 846.92,
-    "end": 858.12,
-    "score": 9,
-    "reason": "Security vulnerability discussion",
-    "chunk_id": 8
-  },
-  {
-    "start": 912.36,
-    "end": 939.84,
-    "score": 9,
-    "reason": "Spaghetti code and UI library discussion",
+    "reason": "spaghetti code nature and potential performance issues",
     "chunk_id": 8
   },
   {
     "start": 981.48,
     "end": 1014.68,
+    "duration": 33.2,
     "score": 9,
-    "reason": "Zero tests in the code base, highlighting a major issue.",
+    "reason": "Zero tests in the code base, a major red flag.",
     "chunk_id": 9
   },
   {
-    "start": 1017.68,
-    "end": 1032.92,
-    "score": 8,
-    "reason": "Importance of deployment process and checks for avoiding customer dissatisfaction.",
+    "start": 1008.2,
+    "end": 1044.36,
+    "duration": 36.16,
+    "score": 9,
+    "reason": "Importance of deployment process and checks in AI development.",
     "chunk_id": 9
   }
 ]

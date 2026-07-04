@@ -34,7 +34,8 @@ Rules:
   - funny moments
   - emotional moments
   - memorable quotes
-- Each clip should be between 30 and 60 seconds whenever possible.
+- Calculate the duration (end - start) and ensure it is AT LEAST 30 seconds.
+- Each clip MUST be between 30 and 60 seconds.
 - If no good clip exists, return an empty list.
 
 Return ONLY valid JSON.
@@ -44,6 +45,7 @@ Return ONLY valid JSON.
     {
       "start": 123.4,
       "end": 156.8,
+      "duration": 33.4,
       "score": 9,
       "reason": "..."
     }
@@ -85,7 +87,22 @@ def analyze_chunk(chunk):
         )
 
         response = completion.choices[0].message.content
-        return json.loads(response).get("clips", [])
+        clips = json.loads(response).get("clips", [])
+        
+        # Enforce the 30-second minimum duration programmatically
+        valid_clips = []
+        for clip in clips:
+            try:
+                start_val = float(clip.get("start", 0))
+                end_val = float(clip.get("end", 0))
+                if (end_val - start_val) >= 29.5: # 29.5 to allow for minor rounding issues
+                    valid_clips.append(clip)
+                else:
+                    print(f"Skipped clip for chunk {chunk.get('chunk_id')} because it's only {end_val - start_val:.1f} seconds long.")
+            except (ValueError, TypeError):
+                pass
+                
+        return valid_clips
 
     except Exception as e:
         print(f"Error in chunk {chunk['chunk_id']}: {e}")
